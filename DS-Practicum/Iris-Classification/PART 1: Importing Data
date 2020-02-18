@@ -1,0 +1,22 @@
+### PART 1: Importing Iris dataset from sklearn Python module
+
+from sklearn.datasets import load_iris     
+iris = load_iris()
+
+    ## Shows whole dataset
+    print(iris)         # shows arrays of data from dataset
+    print(iris.data)    # shows data only
+    print(iris.data.T)  # transposes data "matrix"; storing data by each category/feature
+
+        ## Showing dataset 'dictionary' keys
+        print(iris.keys())                          #key(): returns a view object; containing the keys of the dictionary, as a list
+
+        ### Printing contents of each key
+        print(iris['data'])
+        print(iris['target'])                       #Shows what (numerical) output each species corresponds to
+        print(iris['target_names'])                 #Types of species to predict (strings)
+        print(iris['DESCR'])                        #Description of dataset
+            print(iris['DESCR'][:200] + "\n...")      #Shows first few characters of dataset description
+        print(iris['feature_names'])                #Header of data: length/width, etc.
+            print(iris['data'].shape)               #Shows no. of entries: (rows,cols)
+        print(iris['filename'])
