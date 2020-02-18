@@ -1,0 +1,40 @@
+### Modules
+import sys
+    print('Python: {}'.format(sys.version))
+import scipy 
+    print('scipy: {}'.format(scipy.__version__))
+import numpy 
+    print('numpy: {}'.format(numpy.__version__))
+import matplotlib 
+    print('matplotlib: {}'.format(matplotlib.__version__))
+import pandas 
+    print('pandas: {}'.format(pandas.__version__))
+import sklearn 
+    print('sklearn: {}'.format(sklearn.__version__))
+    
+--------------------------------------------------------------------------------------------------------------    
+### Libraries Needed
+#from urllib.request import urlretrieve
+
+import pandas as pd
+from pandas.plotting import scatter_matrix
+
+import matplotlib.pyplot as plt               # Will be used to generate plots
+
+import seaborn as sns
+from sklearn import model_selection
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+
+import numpy as np
+from sklearn.model_selection import train_test_split      #splitting dataset into 75/25 training/test
+from sklearn.neighbors import KNeighborsClassifier        #model: finds the k-nearest points (k is finite) from the training set
+                                                                # to the new given point corresponding to the testing sample
+                                                                # we want to classify given a iris sample
+
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
