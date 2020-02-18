@@ -1,0 +1,19 @@
+Background Information:
+  https://en.wikipedia.org/wiki/Iris_flower_data_set#Data_set
+
+Tutorial Guide:
+  https://github.com/vprusso/youtube_tutorials/tree/master/machine_learning/iris_classification
+  https://www.youtube.com/watch?v=Y17Y_8RK6p
+  
+  https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+Technical/ Specific Modules:
+ > k-Neighbors Classifier:
+      https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier.kneighbors
+  
+  
+Addition Materials:
+  https://www.kaggle.com/sanjeet41/iris-data-set-for-beginners#iris.csv
+  https://medium.com/@harimittapalli/exploratory-data-analysis-iris-dataset-9920ea439a3e
+  https://www.ritchieng.com/machine-learning-iris-dataset/
+  http://blueowlpress.com/wp-content/uploads/IrisTutorialPart1.html
