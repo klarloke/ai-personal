@@ -1,5 +1,5 @@
 # What is "ai-personal"
-My self-learning journey on everything data science, artificial intelligence, machine learning, galore.
+My self-learning journey on everything data science, artificial intelligence, machine learning, galore. Will be regularly updating this with projects and notes.
 ## Design Thinking Process Model:
 <img src="https://www.eurib.net/wp-content/uploads/2019/07/Design-thinking-main.jpg">
 
